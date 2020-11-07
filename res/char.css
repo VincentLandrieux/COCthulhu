@@ -28,6 +28,13 @@ a{
     background-color: #163d3a;
     border: 1px solid #a0bf52;
     text-align: center;
+
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
 }
 .dice_select_btn:hover{
     cursor: pointer;
@@ -57,6 +64,13 @@ a{
     border-radius: 6px 0 0 6px;
     background-color: #aeb9aa;
     text-align: center;
+
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
 }
 .dice_roll_btn:hover{
     cursor: pointer;
@@ -73,6 +87,13 @@ a{
     background-color: #465f3d;
     text-align: center;
     border-radius: 0 6px 6px 0;
+
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
 }
 
 .char_img{
