@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.dice{
+    background-color: #010b09;
+    width: 100%;
+}
+.dice_select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.dice_select_btn{
+    margin: 6px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #163d3a;
+    border: 1px solid #a0bf52;
+    text-align: center;
+}
+.dice_select_btn:hover{
+    cursor: pointer;
+    color: #a0bf52;
+    background-color: #fefefe;
+}
+.dice_select_btn.select{
+    color: #a0bf52;
+}
+
+.dice_roll{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.dice_roll_btn{
+    margin: 6px 0 6px 6px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #465f3d;
+
+    border: 2px solid #465f3d;
+    border-radius: 6px 0 0 6px;
+    background-color: #aeb9aa;
+    text-align: center;
+}
+.dice_roll_btn:hover{
+    cursor: pointer;
+    background-color: #fefefe;
+}
+.dice_roll_result{
+    width: 45px;
+    height: 45px;
+    margin: 6px 6px 6px 0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #465f3d;
+    text-align: center;
+    border-radius: 0 6px 6px 0;
+}
+
+.char_img{
+    width: 100%;
+}
